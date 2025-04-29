@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'Lovelace Medium';
+    src: url('fonts/lovelace_script/Lovelace-Script-Medium-trial.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Lovelace Extrabold';
+    src: url('fonts/lovelace_script/Lovelace-Script-Extrabold-trial.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'TT Fors Regular';
+    src: url('fonts/tt_fors (1)/TT\ Fors\ Trial\ Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+:root {
+    --primary: #033e9c;
+    --secondary: #bbd7e9;
+    --dark: #000000;
+    --light: #FFFFFF;
+}
+
+* {
+    background-color: var(--secondary);
+    margin-top: 0.5rem;
+    margin-left: 0.7rem;
+}
+
+body {
+    color: var(--dark);
+    line-height: 1.5;
+    font-family: 'TT Fors Regular', sans-serif;
+}
+
+.name-title {
+    color: var(--primary);
+    font-weight: 400;
+    margin-bottom: 0%;
+    font-size: 4rem;
+    
+}
+
+.subtitle {
+    font-family: 'Lovelace Medium', serif;
+    font-size: 2rem;
+    color: var(--primary);
+    letter-spacing: 0.005em;
+    margin-top: 0%;
+    font-weight: 10;
+}
+
+.profile-image {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10%;
+    border: 1px solid #000000;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7 );
+}
+
+.left-column {
+    display: flex;
+    flex-direction: column;
+    display:inline-block;
+    width: 350px;
+    text-align:center;
+    margin-top: 1rem;
+}
+
+.github-icon,.linkedin-icon  {
+    text-decoration: none;
+}
+
+.middle-column {
+    justify-content: center;
+}
+
+.home{
+    position: relative;
+}
+
+.middle-column {
+  display: flex;
+  flex-direction: column;
+  display: inline-block;
+  width: 500px;
+  margin-top:6rem;
+  margin-left: 4rem;
+  position: absolute;
+}
+
+h2 {
+    color: var(--primary);
+    font-weight: 200;
+}
+
+
